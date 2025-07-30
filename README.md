@@ -29,16 +29,7 @@ plate:
   rover_step_y: 1        # Rover step size in Y (cm)
   sensor_width: 30       # Sweep width of the sensor (cm)
   sensor_step: 1         # Step resolution within a sweep (cm)
-
-
-## Extending to Real Hardware
-
-This prototype can be extended by:
-
-- Replacing `rover_position_node` with real odometry or tf data from a mobile robot.
-- Substituting `sensor_value_node` with real drivers for ultrasonic, EMAT, or infrared sensors.
-- Integrating with `ros2_control` for motor actuation and feedback.
-- Using transform lookups (`tf2`) to compute real sensor positions from the robot's base frame.
+```
 
 ## Extending to Real Hardware
 
@@ -48,4 +39,5 @@ This prototype can be extended by:
 - Substituting `sensor_value_node` with real drivers for ultrasonic, EMAT, or infrared sensors.
 - Integrating with `ros2_control` for motor actuation and feedback.
 - Using transform lookups (`tf2`) to compute real sensor positions from the robot's base frame.
+
 
