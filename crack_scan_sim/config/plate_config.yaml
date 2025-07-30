@@ -1,0 +1,7 @@
+plate:
+  width: 20
+  height: 20
+  sensor_width: 3
+  sensor_step: 1
+  rover_step_x: 3 #make same as sensor_width for full coverage, if its smaller itll overwrite blocks it has scanned before, if its larger itll leave some blocks unanalysed
+  rover_step_y: 1

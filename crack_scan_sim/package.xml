@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>crack_scan_sim</name>
+  <version>0.1.0</version>
+  <description>Simulation of a crack-scanning rover with sensor sweep</description>
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <!-- Build system and Python package support -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- For custom message generation -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <!-- Message types used -->
+  <build_depend>geometry_msgs</build_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <build_depend>std_msgs</build_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>pyyaml</exec_depend>
+
+  <!-- Runtime support -->
+  <exec_depend>rclpy</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
